@@ -1,11 +1,9 @@
-using JetBrains.Annotations;
-using Unity.Mathematics;
 using UnityEngine;
 
 public class RunnerMovement : MonoBehaviour
 {
     public Vector3[] targets;
-    public float movementSpeed;
+    public float movementSpeed = 5f;
     private bool forward = true;
     private int currentIndex;
     void Start()

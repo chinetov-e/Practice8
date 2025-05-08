@@ -1,10 +1,9 @@
 using UnityEngine;
-using UnityEngine.UI;
 
 public class RelayRace : MonoBehaviour
 {
     public Transform[] runners;
-    public float speed;
+    public float speed = 5f;
     private float passDistance = 1f;
     private int currentRunnerIndex = 0;
     private int nextRunnerIndex = 1;
